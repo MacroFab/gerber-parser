@@ -1,0 +1,49 @@
+{
+  "name": "@tracespace/cli",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "4.2.8",
+  "description": "Render a PCB as SVGs from the command line",
+  "bin": {
+    "tracespace": "index.js"
+  },
+  "scripts": {
+    "docs": "node scripts/docs.js README.md docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracespace/tracespace.git"
+  },
+  "keywords": [
+    "pcb",
+    "gerber",
+    "excellon",
+    "drill",
+    "circuit",
+    "hardware",
+    "electronics"
+  ],
+  "contributors": [
+    "Mike Cousins <mike@cousins.io> (https://mike.cousins.io)"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "common-prefix": "^1.1.0",
+    "cosmiconfig": "^5.2.1",
+    "debug": "^4.1.1",
+    "dot-prop": "^5.1.0",
+    "gerber-to-svg": "^4.2.8",
+    "globby": "^10.0.2",
+    "is-glob": "^4.0.1",
+    "make-dir": "^3.0.0",
+    "pcb-stackup": "^4.2.8",
+    "slash": "^3.0.0",
+    "untildify": "^4.0.0",
+    "whats-that-gerber": "^4.2.7",
+    "yargs": "^15.1.0"
+  }
+}
